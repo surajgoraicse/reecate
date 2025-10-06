@@ -13,3 +13,12 @@ export const UserSchema = CreateUserSchema.extend({
 });
 
 export type User = z.infer<typeof UserSchema>;
+
+export const ContactSchema = z.object({
+  phoneNumber: z
+    .string()
+    .regex(/^(?:\+91\d{10}|\d{10})$/, 'Invalid phone number'),
+  message: z.string().min(2, { message: 'Message is Required' }),
+});
+
+export type Contact = z.infer<typeof ContactSchema>;

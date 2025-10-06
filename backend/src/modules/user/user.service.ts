@@ -81,6 +81,25 @@ class UserService {
       throw new ApiError(500, 'Failed to retrieve user');
     }
   }
+
+  async submitContactForm(
+    id: string,
+    phoneNumber: string,
+    message: string
+  ): Promise<boolean> {
+    const create = await db.contactMessage.create({
+      data: {
+        userId: id,
+        phoneNumber: phoneNumber,
+        message: message,
+      },
+    });
+    console.log(create);
+    if (!create) {
+      return false;
+    }
+    return true;
+  }
 }
 
 const userService = new UserService();

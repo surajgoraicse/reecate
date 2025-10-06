@@ -11,14 +11,21 @@ import {
 
 import type { RefreshToken } from '@/types/types.js';
 import APIError from '@/utils/apiError.js';
-import APIResponse from '@/utils/apiResponse.js';
+import {
+  default as APIResponse,
+  default as ApiResponse,
+} from '@/utils/apiResponse.js';
 import catchAsync from '@/utils/async.handler.js';
 import { hashPassword, verifyHashedPassword } from '@/utils/encryption.js';
 import { type Request, type Response } from 'express';
 import { v4 as uuidv4 } from 'uuid';
 import z from 'zod';
 import userService from './user.service.js';
-import { CreateUserSchema, type CreateUser } from './user.types.js';
+import {
+  ContactSchema,
+  CreateUserSchema,
+  type CreateUser,
+} from './user.types.js';
 
 const initRegister = catchAsync(async (req: Request, res: Response) => {
   const { email, password, fullName, userName }: CreateUser = req.body;
@@ -220,6 +227,50 @@ const refreshTokens = catchAsync(async (req: Request, res: Response) => {
   return;
 });
 
+const contactForm = catchAsync(async (req: Request, res: Response) => {
+  const parseBody = ContactSchema.safeParse(req.body);
+
+  if (
+    !parseBody.success ||
+    !parseBody.data.message ||
+    !parseBody.data.phoneNumber
+  ) {
+    res
+      .status(400)
+      .json(
+        new ApiResponse(
+          400,
+          'Invalid Data , Please Check phone number and message',
+          null
+        )
+      );
+    return;
+  }
+  const { phoneNumber, message } = parseBody.data;
+  const userId = req.user?.id;
+  if (!userId) {
+    res.status(401).json(new ApiResponse(401, 'Unauthorized', null));
+    return;
+  }
+
+  const submitForm = userService.submitContactForm(
+    userId,
+    phoneNumber,
+    message
+  );
+  if (!submitForm) {
+    res
+      .status(500)
+      .json(
+        new ApiResponse(500, 'Something went wrong, unable to submit form')
+      );
+    return;
+  }
+  res
+    .status(200)
+    .json(new ApiResponse(200, 'Form Submitted Successfully', null));
+});
+
 export default {
   initRegister,
   verifyRegistration,
@@ -228,4 +279,5 @@ export default {
   forgotPassword,
   resetPassword,
   refreshTokens,
+  contactForm,
 };
