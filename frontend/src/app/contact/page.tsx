@@ -1,4 +1,11 @@
-import { Facebook, Instagram, MailIcon, MapPinIcon, PhoneIcon, Youtube } from "lucide-react";
+import {
+	Facebook,
+	Instagram,
+	MailIcon,
+	MapPinIcon,
+	PhoneIcon,
+	Youtube,
+} from "lucide-react";
 
 import { ContactCard } from "@/components/myComponents/cards/ContactCard";
 import ContactForm from "@/components/myComponents/forms/ContactForm";
@@ -15,37 +22,37 @@ export default function Contact() {
 							icon: PhoneIcon,
 							label: "Phone",
 							value: "+91 911009918",
-							url: "#"
+							url: "#",
 						},
 						{
 							icon: MailIcon,
 							label: "Email",
 							value: "surajgoraicse@gmail.com",
-							url: "#"
+							url: "#",
 						},
 						{
 							icon: MapPinIcon,
 							label: "Address",
 							value: "Jamshedpur, Jharkhand",
-							url: "#"
+							url: "#",
 						},
 						{
 							icon: Instagram,
 							label: "Address",
 							value: "Jamshedpur, Jharkhand",
-							url: "#"
+							url: "#",
 						},
 						{
 							icon: Facebook,
 							label: "Address",
 							value: "Jamshedpur, Jharkhand",
-							url: "#"
+							url: "#",
 						},
 						{
 							icon: Youtube,
 							label: "Address",
 							value: "Jamshedpur, Jharkhand",
-							url: "#"
+							url: "#",
 						},
 					]}
 				>

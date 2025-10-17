@@ -1,15 +1,12 @@
 // import { Logo } from "@/components/logo";
 import {
 	NavigationMenu,
-	NavigationMenuContent,
 	NavigationMenuItem,
 	NavigationMenuLink,
 	NavigationMenuList,
-	NavigationMenuTrigger,
 	navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 import { cn } from "@/lib/utils";
-import Link from "next/link";
 import * as React from "react";
 const components: { title: string; href: string; description: string }[] = [
 	{
@@ -53,71 +50,37 @@ export default function MyNavigationMenu() {
 		<NavigationMenu className="z-20">
 			<NavigationMenuList>
 				<NavigationMenuItem>
-					<NavigationMenuTrigger>MEN</NavigationMenuTrigger>
-					<NavigationMenuContent>
-						<ul className="grid gap-3 p-1 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
-							<li className="row-span-3">
-								<NavigationMenuLink asChild>
-									<Link
-										className="flex h-full w-full select-none flex-col justify-end rounded-md bg-linear-to-b from-muted/50 to-muted p-4 no-underline outline-hidden focus:shadow-md"
-										href="/"
-									>
-										{/* <Logo className="h-8 w-8" /> */}
-										LOGO
-										<div className="mb-2 mt-4 text-lg font-medium">
-											Shadcn UI Blocks
-										</div>
-										<p className="text-sm leading-tight text-muted-foreground">
-											Collection of customized Shadcn UI
-											blocks and components
-										</p>
-									</Link>
-								</NavigationMenuLink>
-							</li>
-							<ListItem href="/contact" title="Introduction">
-								Re-usable components built using Radix UI and
-								Tailwind CSS.
-							</ListItem>
-							<ListItem
-								href="/docs/installation"
-								title="Installation"
-							>
-								How to install dependencies and structure your
-								app.
-							</ListItem>
-							<ListItem
-								href="/docs/primitives/typography"
-								title="Typography"
-							>
-								Styles for headings, paragraphs, lists...etc
-							</ListItem>
-						</ul>
-					</NavigationMenuContent>
+					<NavigationMenuLink
+						className={cn(
+							navigationMenuTriggerStyle(),
+							"bg-transparent hover:bg-transparent"
+						)}
+						href="/contact"
+					>
+						MEN
+					</NavigationMenuLink>
 				</NavigationMenuItem>
 				<NavigationMenuItem>
-					<NavigationMenuTrigger>KIDS</NavigationMenuTrigger>
-					<NavigationMenuContent>
-						<ul className="grid w-[400px] gap-3 p-1 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
-							{components.map((component) => (
-								<ListItem
-									key={component.title}
-									title={component.title}
-									href={component.href}
-								>
-									{component.description}
-								</ListItem>
-							))}
-						</ul>
-					</NavigationMenuContent>
+					<NavigationMenuLink
+						className={cn(
+							navigationMenuTriggerStyle(),
+							"bg-transparent hover:bg-transparent"
+						)}
+						href="/contact"
+					>
+						KID
+					</NavigationMenuLink>
 				</NavigationMenuItem>
 				<NavigationMenuItem>
-					<Link href="/contact">
-						<NavigationMenuLink
-							className={navigationMenuTriggerStyle()}
-						>
-							CONTACT
-						</NavigationMenuLink>
-					</Link>
+					<NavigationMenuLink
+						className={cn(
+							navigationMenuTriggerStyle(),
+							"bg-transparent hover:bg-transparent"
+						)}
+						href="/contact"
+					>
+						CONTACT
+					</NavigationMenuLink>
 				</NavigationMenuItem>
 			</NavigationMenuList>
 		</NavigationMenu>

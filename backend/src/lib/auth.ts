@@ -7,19 +7,20 @@ import { prismaAdapter } from 'better-auth/adapters/prisma';
 
 // type Role = "ADMIN" | "USER" | "SUPERADMIN";
 
-
-
 const prisma = new PrismaClient();
 export const auth = betterAuth({
   user: {
     additionalFields: {
       role: {
-        type : "string",
+        type: 'string',
+        required: false,
+        default: 'USER',
+      },
+      userName: {
+        type: 'string',
         required: true,
-        default: "USER",
-        input:false
-      }
-    }
+      },
+    },
   },
   trustedOrigins: [env.CLIENT],
 
@@ -37,6 +38,10 @@ export const auth = betterAuth({
     google: {
       clientId: env.GOOGLE_CLIENT_ID,
       clientSecret: env.GOOGLE_CLIENT_SECRET,
+    },
+    facebook: {
+      clientId: process.env.FACEBOOK_CLIENT_ID as string,
+      clientSecret: process.env.FACEBOOK_CLIENT_SECRET as string,
     },
   },
 });
