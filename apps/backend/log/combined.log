@@ -1,0 +1,257 @@
+[2025-10-06 07:25:56.238] info: Environment Configuration Loaded
+[2025-10-06 07:25:56.378] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-06 07:25:56.383] info: Server is listening at port 8000
+[2025-10-06 07:25:56.385] info: [REDIS] Connected to Redis
+[2025-10-06 07:26:26.599] error: [EMAIL] Service :  Error: Greeting never received
+[2025-10-06 07:28:29.287] warn: [AUTH_MIDDLEWARE] No Bearer token found in Authorization header
+[2025-10-06 07:28:29.288] error: [SERVER] error  Authentication required. Please provide a valid token.
+[2025-10-06 07:29:51.323] info: Environment Configuration Loaded
+[2025-10-06 07:29:51.431] error: [EMAIL] Service :  Error: getaddrinfo EAI_AGAIN smtp.gmail.com
+[2025-10-06 07:29:51.451] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-06 07:29:51.458] info: Server is listening at port 8000
+[2025-10-06 07:29:51.461] info: [REDIS] Connected to Redis
+[2025-10-06 07:30:02.571] info: Environment Configuration Loaded
+[2025-10-06 07:30:02.682] error: [EMAIL] Service :  Error: getaddrinfo EAI_AGAIN smtp.gmail.com
+[2025-10-06 07:30:02.701] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-06 07:30:02.705] info: Server is listening at port 8000
+[2025-10-06 07:30:02.707] info: [REDIS] Connected to Redis
+[2025-10-06 07:30:18.314] info: Environment Configuration Loaded
+[2025-10-06 07:30:18.446] error: [EMAIL] Service :  Error: getaddrinfo EAI_AGAIN smtp.gmail.com
+[2025-10-06 07:30:18.463] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-06 07:30:18.468] info: Server is listening at port 8000
+[2025-10-06 07:30:18.469] info: [REDIS] Connected to Redis
+[2025-10-06 07:30:24.815] info: Environment Configuration Loaded
+[2025-10-06 07:30:24.938] error: [EMAIL] Service :  Error: getaddrinfo EAI_AGAIN smtp.gmail.com
+[2025-10-06 07:30:24.949] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-06 07:30:24.954] info: Server is listening at port 8000
+[2025-10-06 07:30:24.956] info: [REDIS] Connected to Redis
+[2025-10-06 07:31:08.948] info: Environment Configuration Loaded
+[2025-10-06 07:31:09.071] error: [EMAIL] Service :  Error: getaddrinfo EAI_AGAIN smtp.gmail.com
+[2025-10-06 07:31:10.859] info: Environment Configuration Loaded
+[2025-10-06 07:31:10.983] error: [EMAIL] Service :  Error: getaddrinfo EAI_AGAIN smtp.gmail.com
+[2025-10-06 07:31:10.999] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-06 07:31:11.004] info: Server is listening at port 8000
+[2025-10-06 07:31:11.006] info: [REDIS] Connected to Redis
+[2025-10-06 07:31:25.319] info: Environment Configuration Loaded
+[2025-10-06 07:31:25.437] error: [EMAIL] Service :  Error: getaddrinfo EAI_AGAIN smtp.gmail.com
+[2025-10-06 07:31:25.453] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-06 07:31:25.458] info: Server is listening at port 8000
+[2025-10-06 07:31:25.460] info: [REDIS] Connected to Redis
+[2025-10-06 07:31:30.552] warn: [AUTH_MIDDLEWARE] No Bearer token found in Authorization header
+[2025-10-06 07:31:30.553] error: [SERVER] error  Authentication required. Please provide a valid token.
+[2025-10-06 07:32:38.340] info: Environment Configuration Loaded
+[2025-10-06 07:32:38.458] error: [EMAIL] Service :  Error: getaddrinfo EAI_AGAIN smtp.gmail.com
+[2025-10-06 07:32:38.471] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-06 07:32:38.476] info: Server is listening at port 8000
+[2025-10-06 07:32:38.478] info: [REDIS] Connected to Redis
+[2025-10-06 07:32:40.259] info: Environment Configuration Loaded
+[2025-10-06 07:32:40.375] error: [EMAIL] Service :  Error: getaddrinfo EAI_AGAIN smtp.gmail.com
+[2025-10-06 07:32:40.393] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-06 07:32:40.397] info: Server is listening at port 8000
+[2025-10-06 07:32:40.399] info: [REDIS] Connected to Redis
+[2025-10-06 07:32:52.334] info: Environment Configuration Loaded
+[2025-10-06 07:32:52.460] error: [EMAIL] Service :  Error: getaddrinfo EAI_AGAIN smtp.gmail.com
+[2025-10-06 07:32:52.482] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-06 07:32:52.487] info: Server is listening at port 8000
+[2025-10-06 07:32:52.489] info: [REDIS] Connected to Redis
+[2025-10-06 07:32:58.129] info: Environment Configuration Loaded
+[2025-10-06 07:32:58.248] error: [EMAIL] Service :  Error: getaddrinfo EAI_AGAIN smtp.gmail.com
+[2025-10-06 07:32:58.266] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-06 07:32:58.271] info: Server is listening at port 8000
+[2025-10-06 07:32:58.273] info: [REDIS] Connected to Redis
+[2025-10-06 07:33:04.465] info: Environment Configuration Loaded
+[2025-10-06 07:33:04.589] error: [EMAIL] Service :  Error: getaddrinfo EAI_AGAIN smtp.gmail.com
+[2025-10-06 07:33:04.607] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-06 07:33:04.612] info: Server is listening at port 8000
+[2025-10-06 07:33:04.614] info: [REDIS] Connected to Redis
+[2025-10-06 07:33:12.115] info: Environment Configuration Loaded
+[2025-10-06 07:33:12.234] error: [EMAIL] Service :  Error: getaddrinfo EAI_AGAIN smtp.gmail.com
+[2025-10-06 07:33:12.242] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-06 07:33:12.247] info: Server is listening at port 8000
+[2025-10-06 07:33:12.249] info: [REDIS] Connected to Redis
+[2025-10-06 07:33:12.969] info: Environment Configuration Loaded
+[2025-10-06 07:33:13.095] error: [EMAIL] Service :  Error: getaddrinfo EAI_AGAIN smtp.gmail.com
+[2025-10-06 07:33:13.116] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-06 07:33:13.122] info: Server is listening at port 8000
+[2025-10-06 07:33:13.124] info: [REDIS] Connected to Redis
+[2025-10-06 07:33:21.826] warn: [AUTH_MIDDLEWARE] No Bearer token found in Authorization header
+[2025-10-06 07:33:21.827] error: [SERVER] error  Authentication required. Please provide a valid token.
+[2025-10-06 07:33:28.875] info: Environment Configuration Loaded
+[2025-10-06 07:33:29.005] error: [EMAIL] Service :  Error: getaddrinfo EAI_AGAIN smtp.gmail.com
+[2025-10-06 07:33:29.026] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-06 07:33:29.031] info: Server is listening at port 8000
+[2025-10-06 07:33:29.034] info: [REDIS] Connected to Redis
+[2025-10-06 07:34:51.213] info: Environment Configuration Loaded
+[2025-10-06 07:34:51.346] error: [EMAIL] Service :  Error: getaddrinfo EAI_AGAIN smtp.gmail.com
+[2025-10-06 07:34:51.369] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-06 07:34:51.376] info: Server is listening at port 8000
+[2025-10-06 07:34:51.378] info: [REDIS] Connected to Redis
+[2025-10-06 07:35:35.608] info: Environment Configuration Loaded
+[2025-10-06 07:35:35.723] error: [EMAIL] Service :  Error: getaddrinfo EAI_AGAIN smtp.gmail.com
+[2025-10-06 07:35:35.743] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-06 07:35:35.747] info: Server is listening at port 8000
+[2025-10-06 07:35:35.750] info: [REDIS] Connected to Redis
+[2025-10-06 07:36:04.977] info: Environment Configuration Loaded
+[2025-10-06 07:36:05.098] error: [EMAIL] Service :  Error: getaddrinfo EAI_AGAIN smtp.gmail.com
+[2025-10-06 07:36:05.108] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-06 07:36:05.112] info: Server is listening at port 8000
+[2025-10-06 07:36:05.114] info: [REDIS] Connected to Redis
+[2025-10-06 07:36:06.056] info: Environment Configuration Loaded
+[2025-10-06 07:36:06.173] error: [EMAIL] Service :  Error: getaddrinfo EAI_AGAIN smtp.gmail.com
+[2025-10-06 07:36:06.190] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-06 07:36:06.195] info: Server is listening at port 8000
+[2025-10-06 07:36:06.197] info: [REDIS] Connected to Redis
+[2025-10-06 07:36:08.230] info: Environment Configuration Loaded
+[2025-10-06 07:36:08.347] error: [EMAIL] Service :  Error: getaddrinfo EAI_AGAIN smtp.gmail.com
+[2025-10-06 07:36:08.358] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-06 07:36:08.362] info: Server is listening at port 8000
+[2025-10-06 07:36:08.364] info: [REDIS] Connected to Redis
+[2025-10-06 07:36:09.222] info: Environment Configuration Loaded
+[2025-10-06 07:36:09.356] error: [EMAIL] Service :  Error: getaddrinfo EAI_AGAIN smtp.gmail.com
+[2025-10-06 07:36:09.374] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-06 07:36:09.378] info: Server is listening at port 8000
+[2025-10-06 07:36:09.381] info: [REDIS] Connected to Redis
+[2025-10-06 07:36:12.050] info: Environment Configuration Loaded
+[2025-10-06 07:36:12.165] error: [EMAIL] Service :  Error: getaddrinfo EAI_AGAIN smtp.gmail.com
+[2025-10-06 07:36:12.181] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-06 07:36:12.186] info: Server is listening at port 8000
+[2025-10-06 07:36:12.187] info: [REDIS] Connected to Redis
+[2025-10-06 07:36:17.315] info: Environment Configuration Loaded
+[2025-10-06 07:36:17.444] error: [EMAIL] Service :  Error: getaddrinfo EAI_AGAIN smtp.gmail.com
+[2025-10-06 07:36:17.447] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-06 07:36:17.452] info: Server is listening at port 8000
+[2025-10-06 07:36:17.454] info: [REDIS] Connected to Redis
+[2025-10-06 07:37:01.355] info: Environment Configuration Loaded
+[2025-10-06 07:37:01.486] error: [EMAIL] Service :  Error: getaddrinfo EAI_AGAIN smtp.gmail.com
+[2025-10-06 07:37:01.490] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-06 07:37:01.494] info: Server is listening at port 8000
+[2025-10-06 07:37:01.496] info: [REDIS] Connected to Redis
+[2025-10-06 07:37:14.605] info: Environment Configuration Loaded
+[2025-10-06 07:37:14.740] error: [EMAIL] Service :  Error: getaddrinfo EAI_AGAIN smtp.gmail.com
+[2025-10-06 07:37:14.758] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-06 07:37:14.763] info: Server is listening at port 8000
+[2025-10-06 07:37:14.765] info: [REDIS] Connected to Redis
+[2025-10-06 07:37:26.738] info: Environment Configuration Loaded
+[2025-10-06 07:37:26.869] error: [EMAIL] Service :  Error: getaddrinfo EAI_AGAIN smtp.gmail.com
+[2025-10-06 07:37:26.883] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-06 07:37:26.889] info: Server is listening at port 8000
+[2025-10-06 07:37:26.891] info: [REDIS] Connected to Redis
+[2025-10-06 07:37:36.160] info: Environment Configuration Loaded
+[2025-10-06 07:37:36.288] error: [EMAIL] Service :  Error: getaddrinfo EAI_AGAIN smtp.gmail.com
+[2025-10-06 07:37:36.295] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-06 07:37:36.299] info: Server is listening at port 8000
+[2025-10-06 07:37:36.301] info: [REDIS] Connected to Redis
+[2025-10-06 07:37:41.645] info: Environment Configuration Loaded
+[2025-10-06 07:37:41.772] error: [EMAIL] Service :  Error: getaddrinfo EAI_AGAIN smtp.gmail.com
+[2025-10-06 07:37:41.780] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-06 07:37:41.785] info: Server is listening at port 8000
+[2025-10-06 07:37:41.786] info: [REDIS] Connected to Redis
+[2025-10-06 07:38:36.555] info: Environment Configuration Loaded
+[2025-10-06 07:38:36.668] error: [EMAIL] Service :  Error: getaddrinfo EAI_AGAIN smtp.gmail.com
+[2025-10-06 07:38:36.685] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-06 07:38:36.689] info: Server is listening at port 8000
+[2025-10-06 07:38:36.691] info: [REDIS] Connected to Redis
+[2025-10-06 07:38:42.182] info: Environment Configuration Loaded
+[2025-10-06 07:38:42.305] error: [EMAIL] Service :  Error: getaddrinfo EAI_AGAIN smtp.gmail.com
+[2025-10-06 07:38:42.317] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-06 07:38:42.322] info: Server is listening at port 8000
+[2025-10-06 07:38:42.324] info: [REDIS] Connected to Redis
+[2025-10-06 07:38:43.207] info: Environment Configuration Loaded
+[2025-10-06 07:38:43.321] error: [EMAIL] Service :  Error: getaddrinfo EAI_AGAIN smtp.gmail.com
+[2025-10-06 07:38:43.336] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-06 07:38:43.341] info: Server is listening at port 8000
+[2025-10-06 07:38:43.342] info: [REDIS] Connected to Redis
+[2025-10-07 05:37:24.047] info: Environment Configuration Loaded
+[2025-10-07 05:37:24.213] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-07 05:37:24.217] info: Server is listening at port 8000
+[2025-10-07 05:37:24.219] info: [REDIS] Connected to Redis
+[2025-10-07 05:37:26.336] info: [EMAIL] connected to service
+[2025-10-07 07:36:47.183] info: Environment Configuration Loaded
+[2025-10-07 07:36:47.359] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-07 07:36:47.364] info: Server is listening at port 8000
+[2025-10-07 07:36:47.366] info: [REDIS] Connected to Redis
+[2025-10-07 07:36:49.591] info: [EMAIL] connected to service
+[2025-10-07 07:59:37.749] info: Environment Configuration Loaded
+[2025-10-07 07:59:37.891] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-07 07:59:37.896] info: Server is listening at port 8000
+[2025-10-07 07:59:37.898] info: [REDIS] Connected to Redis
+[2025-10-07 07:59:47.441] info: Environment Configuration Loaded
+[2025-10-07 07:59:47.569] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-07 07:59:47.573] info: Server is listening at port 8000
+[2025-10-07 07:59:47.575] info: [REDIS] Connected to Redis
+[2025-10-07 07:59:49.018] info: Environment Configuration Loaded
+[2025-10-07 07:59:49.157] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-07 07:59:49.162] info: Server is listening at port 8000
+[2025-10-07 07:59:49.163] info: [REDIS] Connected to Redis
+[2025-10-07 07:59:55.128] info: Environment Configuration Loaded
+[2025-10-07 07:59:55.272] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-07 07:59:55.276] info: Server is listening at port 8000
+[2025-10-07 07:59:55.278] info: [REDIS] Connected to Redis
+[2025-10-07 07:59:56.355] info: Environment Configuration Loaded
+[2025-10-07 07:59:56.498] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-07 07:59:56.503] info: Server is listening at port 8000
+[2025-10-07 07:59:56.504] info: [REDIS] Connected to Redis
+[2025-10-07 07:59:57.968] info: [EMAIL] connected to service
+[2025-10-07 08:00:28.066] info: Environment Configuration Loaded
+[2025-10-07 08:00:28.229] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-07 08:00:28.235] info: Server is listening at port 8000
+[2025-10-07 08:00:28.237] info: [REDIS] Connected to Redis
+[2025-10-07 08:00:29.735] info: [EMAIL] connected to service
+[2025-10-07 08:01:23.718] info: Environment Configuration Loaded
+[2025-10-07 08:01:23.861] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-07 08:01:23.866] info: Server is listening at port 8000
+[2025-10-07 08:01:23.868] info: [REDIS] Connected to Redis
+[2025-10-07 08:01:25.968] info: [EMAIL] connected to service
+[2025-10-09 07:12:31.875] info: Environment Configuration Loaded
+[2025-10-09 07:12:32.023] error: [PRISMA] : Failed to connect to PostgreSQL: Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+[2025-10-09 07:12:44.394] info: Environment Configuration Loaded
+[2025-10-09 07:12:44.545] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-09 07:12:44.549] info: Server is listening at port 8000
+[2025-10-09 07:12:44.551] info: [REDIS] Connected to Redis
+[2025-10-09 07:12:46.129] info: [EMAIL] connected to service
+[2025-10-09 07:41:33.904] info: Environment Configuration Loaded
+[2025-10-09 07:41:34.045] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-09 07:41:34.050] info: Server is listening at port 8000
+[2025-10-09 07:41:34.052] info: [REDIS] Connected to Redis
+[2025-10-09 07:41:36.161] info: [EMAIL] connected to service
+[2025-10-09 08:57:24.290] info: Environment Configuration Loaded
+[2025-10-09 08:57:24.496] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-09 08:57:24.503] info: Server is listening at port 8000
+[2025-10-09 08:57:24.506] info: [REDIS] Connected to Redis
+[2025-10-09 08:57:26.061] info: [EMAIL] connected to service
+[2025-10-09 08:57:37.108] info: Environment Configuration Loaded
+[2025-10-09 08:57:37.331] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-09 08:57:37.336] info: Server is listening at port 8000
+[2025-10-09 08:57:37.339] info: [REDIS] Connected to Redis
+[2025-10-09 08:57:39.446] info: [EMAIL] connected to service
+[2025-10-09 09:10:38.766] info: Environment Configuration Loaded
+[2025-10-09 09:10:39.061] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-09 09:10:39.075] info: Server is listening at port 8000
+[2025-10-09 09:10:39.082] info: [REDIS] Connected to Redis
+[2025-10-09 09:10:40.454] info: [EMAIL] connected to service
+[2025-11-23 09:12:07.268] info: Environment Configuration Loaded
+[2025-11-23 09:12:07.424] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-11-23 09:12:07.429] info: Server is listening at port 8000
+[2025-11-23 09:12:07.430] info: [REDIS] Connected to Redis
+[2025-11-23 09:12:10.019] info: [EMAIL] connected to service
+[2025-11-23 09:13:55.268] info: Environment Configuration Loaded
+[2025-11-23 09:13:55.400] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-11-23 09:13:55.405] info: Server is listening at port 8000
+[2025-11-23 09:13:55.406] info: [REDIS] Connected to Redis
+[2025-11-23 09:13:59.515] info: [EMAIL] connected to service
+[2025-11-23 09:15:34.315] info: Environment Configuration Loaded
+[2025-11-23 09:15:34.463] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-11-23 09:15:34.468] info: Server is listening at port 8000
+[2025-11-23 09:15:34.470] info: [REDIS] Connected to Redis
+[2025-11-23 09:15:37.841] info: [EMAIL] connected to service
+[2025-11-23 04:11:55.165] info: Environment Configuration Loaded
+[2025-11-23 04:11:55.339] error: [PRISMA] : Failed to connect to PostgreSQL: Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+[2025-11-23 04:12:19.444] info: Environment Configuration Loaded
+[2025-11-23 04:12:19.598] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-11-23 04:12:19.603] info: Server is listening at port 8000
+[2025-11-23 04:12:19.604] info: [REDIS] Connected to Redis
+[2025-11-23 04:12:32.950] info: [EMAIL] connected to service
