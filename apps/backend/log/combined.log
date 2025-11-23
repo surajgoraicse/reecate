@@ -255,3 +255,18 @@ Please make sure your database server is running at `localhost:5432`.
 [2025-11-23 04:12:19.603] info: Server is listening at port 8000
 [2025-11-23 04:12:19.604] info: [REDIS] Connected to Redis
 [2025-11-23 04:12:32.950] info: [EMAIL] connected to service
+[2025-11-23 04:21:29.899] info: Environment Configuration Loaded
+[2025-11-23 04:21:30.044] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-11-23 04:21:30.048] info: Server is listening at port 8000
+[2025-11-23 04:21:30.050] info: [REDIS] Connected to Redis
+[2025-11-23 04:21:31.544] info: [EMAIL] connected to service
+[2025-11-23 04:22:00.385] info: Environment Configuration Loaded
+[2025-11-23 04:22:00.522] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-11-23 04:22:00.526] info: Server is listening at port 8000
+[2025-11-23 04:22:00.528] info: [REDIS] Connected to Redis
+[2025-11-23 04:22:02.164] info: [EMAIL] connected to service
+[2025-11-23 04:22:33.322] info: Environment Configuration Loaded
+[2025-11-23 04:22:33.458] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-11-23 04:22:33.462] info: Server is listening at port 8000
+[2025-11-23 04:22:33.463] info: [REDIS] Connected to Redis
+[2025-11-23 04:22:34.909] info: [EMAIL] connected to service
