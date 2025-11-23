@@ -1,40 +1,38 @@
 "use client";
 import { Button } from "@/components/ui/button";
-// import { useToast } from "@/hooks/use-toast";
-// import { useAuth } from "@/hooks/useAuth";
+import { authClient, signOut } from "@/lib/auth-client";
 import { LogOut, Shield, ShoppingBag, User } from "lucide-react";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 import MobileView from "./MobileView";
 import MyNavigationMenu from "./MyNavigationMenu";
-// import MobileView from "./myComponents/main/MobileView";
-// import MyNavigationMenu from "./myComponents/main/MyNavigationMenu";
 
 const Header = () => {
-	// const { user, isAdmin } = useAuth();
-	// const { toast } = useToast();
-	// const navigate = useNavigate();
+	const [isAdmin, setIsAdmin] = useState<boolean>(false);
+	const [isUser, setIsUser] = useState<boolean>(false);
 
-	// const handleSignOut = async () => {
-	// 	// const { error } = await signOut();
-	// 	const error = null;
-	// 	if (error) {
-	// 		toast({
-	// 			title: "Error",
-	// 			// description: error.message,
-	// 			variant: "destructive",
-	// 		});
-	// 	} else {
-	// 		toast({
-	// 			title: "Success",
-	// 			description: "Signed out successfully!",
-	// 		});
-	// 		navigate("/");
-	// 	}
-	// };
-	const isAdmin = false;
-	const user = true;
+	useEffect(() => {
+		(async function getSession() {
+			const { data: session, error } = await authClient.getSession();
 
-	const handleSignOut = async () => {};
+			if (error) {
+				console.log("error fetching session ", error);
+				return;
+			}
+			console.log("session ", session);
+
+			if (session?.user.role === "ADMIN") {
+				setIsAdmin(true);
+				setIsUser(false);
+			} else if (session?.user.role === "USER") {
+				setIsAdmin(false);
+				setIsUser(true);
+			} else {
+				setIsAdmin(false);
+				setIsUser(false);
+			}
+		})();
+	}, [isAdmin, isUser]);
 
 	return (
 		<header className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
@@ -64,24 +62,24 @@ const Header = () => {
 								</Link>
 							</Button>
 						)}
-						{user ? (
+						{isUser ? (
 							<>
 								<Button variant="ghost" size="icon" asChild>
-									<Link href="/profile">
+									<Link href="/account/profile">
 										<User className="h-5 w-5" />
 									</Link>
 								</Button>
 								<Button
 									variant="ghost"
 									size="icon"
-									onClick={handleSignOut}
+									onClick={signOut}
 								>
 									<LogOut className="h-5 w-5" />
 								</Button>
 							</>
 						) : (
 							<Button variant="ghost" size="sm" asChild>
-								<Link href="/auth">Sign In</Link>
+								<Link href="/auth/signin">Sign In</Link>
 							</Button>
 						)}
 						<Button
